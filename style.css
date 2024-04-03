@@ -2,10 +2,65 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: roboto , Georgia, 'Times New Roman', Times, serif ;
 }
 
 .container {
     display: flex;
     flex-direction: column;
 }
+
+.header ,
+.footer {
+    background-color: #1F2937;
+}
+
+.header-container {
+    width: 1500px;
+    margin: auto;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    flex-basis: 1500px;
+}
+
+#logo {
+    margin-right: auto;
+    font-size: 24px;
+}
+
+ul a ,
+.text p {
+    text-decoration: none;
+    color: #9fa0a3;
+    font-size: 18px;
+}
+
+#logo a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.main h1 {
+    font-size: 48px;
+    font-weight: 1000;
+    color: #F9FAF8;
+}
+
+.main {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    margin: 100px 0;
+    justify-content: space-between;
+}
+
+p {
+    text-wrap: wrap;
+}
+
+
 
