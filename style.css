@@ -16,7 +16,7 @@
 }
 
 .header-container {
-    width: 1500px;
+    width:1000px;
     margin: auto;
 }
 
@@ -24,7 +24,6 @@ ul {
     display: flex;
     list-style: none;
     gap: 16px;
-    flex-basis: 1500px;
 }
 
 #logo {
@@ -54,13 +53,65 @@ ul a ,
     display: flex;
     gap: 24px;
     align-items: center;
-    margin: 100px 0;
     justify-content: space-between;
+    gap: 48px;
+    padding: 100px 0;
 }
 
-p {
-    text-wrap: wrap;
+button {
+    margin-top: 8px;
+    background-color: #3882F6;
+    padding: 8px 32px;
+    border: #3882F6 solid;
+    border-radius: 8px;
+    color: white;
 }
 
+.text {
+    width: 400px;
+}
 
+.main img {
+    flex: auto;
+}
 
+.info h1 {
+    margin: 48px auto;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937;
+}
+
+.item-container {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    margin-bottom: 96px;
+}
+
+.item {
+    width: 150px;
+    text-align: center;
+}
+
+.item img {
+    border: #3882F6 solid 2px;
+    border-radius: 10px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    padding: 96px 600px;
+}
+
+#thor {
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
+    font-style: normal;
+}
